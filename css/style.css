@@ -541,3 +541,53 @@ span{
   border-radius: 244px 244px 100px 100px;
   box-shadow: 0 50px 50px 50px #C8E4B2;
 }
+/*Features Toggles*/
+#toggle{
+  background-color: #FF8551;
+}
+.fb h4{
+  margin-top: 110px;
+  padding-top: 8%;
+  padding-left: 10%;
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  
+}
+.th4{
+  padding-left: 10%;
+}
+.row{
+  padding-top: 30px;
+}
+.row-heading{
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.toggle-content {
+  display: none;
+  color: white;
+    padding: 0; /* Remove padding from the toggle-content */
+    margin-top: 10px; /* Add margin to separate content from button */
+    transition: all 0.3s ease; /* Add smooth transition */
+}
+.toggle-button {
+  padding: 8px 12px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.toggle-button:hover{
+  border: 1px solid white;
+}
+.arrow{
+  font-size: 20px;
+}
+
+.wide-toggle-content {
+    display: block !important; /* Override the display property when toggled */
+    margin-top: 20px; /* Add more margin when content is visible */
+    padding: 0; /* Add padding to the wide content */
+    width: calc(100% + 30px); /* Adjust the width to make it wider */
+    margin-left: -100px; /* Compensate for the negative margin */
+}

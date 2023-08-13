@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/history.css">
     <title>Specialization | Recommendation</title>
+
 </head>
 <body>
 
@@ -84,7 +85,7 @@
             </div>
         </div>
 
-        <!--About-->
+        <!--Feature Benefits-->
         <section class="bg-light text-dark p-1 text-left" id="about">
             <div class="container">
                 <div class="d-sm-flex align-items-center justify-content-between">
@@ -99,6 +100,62 @@
                 </div>
             </div>
         </section>
+
+       <!--FeatureBenefitsToggles-->
+       <div class="container-fluid mx-0" id="toggle">
+        <div class="fb mb-1">
+        <h4>Feature Benefits</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-15">
+            <div class="row">
+              <div class="col-lg-5 th4">
+                <h4 class="text-light mb-1 row-heading">Web and Mobile Application Development</h4>
+              </div>
+              <div class="col-lg-4">
+                <button class="btn btn-success toggle-button"><i class="bi bi-arrow-right arrow"></i></i></button>
+              </div>
+              <div class="col-lg-3">
+                <p class="toggle-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-5 mb-4 th4">
+                <h4 class="text-light mb-1 row-heading"> Management Program</h4>
+              </div>
+              <div class="col-lg-4">
+                <button class="btn btn-success toggle-button"><i class="bi bi-arrow-right arrow"></i></i></button>
+              </div>
+              <div class="col-lg-3">
+                <p class="toggle-content">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-5 mb-5 th4">
+                <h4 class="text-light mb-1 row-heading">Animation and Motion Graphics</h4>
+              </div>
+              <div class="col-lg-4">
+                <button class="btn btn-success toggle-button"><i class="bi bi-arrow-right arrow"></i></i></button>
+              </div>
+              <div class="col-lg-3">
+                <p class="toggle-content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--TogglesJS-->
+      <script>
+        const toggleButtons = document.querySelectorAll('.toggle-button');
+      
+        toggleButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            const content = button.closest('.row').querySelector('.toggle-content');
+            content.classList.toggle('wide-toggle-content'); // Toggle wide-toggle-content class
+          });
+        });
+      </script>
         
 
          
