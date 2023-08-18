@@ -731,7 +731,110 @@ td{
   font-weight: 500;
 }
 
+/*FAQS PAGE*/
+#faqs{
+  height: 400px;
+  align-items: center;
+  background-color: #FF8551;
+}
+.ques{
+  position: absolute;
+  top: 16%;
+  overflow: hidden;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+.ques1{
+  position: absolute;
+  top: 46%;
+  right: 5%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+#fh2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+.input-group{
+  height: 50px;
+}
+/*CONTACT PAGE*/
+.contact{
+  background-color: #FF8551;
+  height: 650px;
+}
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 450px;
+  margin-top: 30px;
+  padding: 100px 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+  padding: 40px;
+}
+.get{
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
 
+.login-form {
+  flex: 1;
+  padding-right: 50px;
+}
+.form-label{
+  font-weight: 700;
+}
+.form-control{
+  font-weight: 500;
+}
+#send{
+  width: 80%;
+  height: 50px;
+}
+.cimg{
+  position: absolute;
+  top: 23%;
+  right: 10%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+  border-radius: 10% 10% 50% 90% ;
+}
+@media (max-width: 768px) {
+  .login-section {
+    flex-direction: column;
+    padding: 40px;
+  }
 
-
-
+  .login-form, #cimg {
+    flex: none;
+    width: 100%;
+  }
+}
+/*Contact cards*/
+.c-heading{
+  text-align: center;
+  margin-top: 8%;
+  font-weight: 800;
+  font-size: 35px;
+}
+#cont{
+  color: #272829;
+  margin-top: 10px;
+  font-size: 20px;
+}
+#cp{
+  border-bottom: 1px solid black;
+  color: black;
+}
+.clogo{
+  font-weight: bold;
+  color: black;
+}
