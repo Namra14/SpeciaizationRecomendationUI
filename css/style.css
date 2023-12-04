@@ -50,6 +50,7 @@
 }
 #guess:hover{
     background-color: black;
+    transition: 0.5s;
 }
 /* Home Page Text*/
 .container .h3{
@@ -824,6 +825,7 @@ td{
   margin-top: 8%;
   font-weight: 800;
   font-size: 35px;
+  color: #F94C10;
 }
 #cont{
   color: #272829;
